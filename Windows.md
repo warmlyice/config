@@ -1,6 +1,10 @@
-BootCamp
+- BootCamp
+- PowerShell
+- activate
+```
 irm https://get.activated.win | iex
-powershell
+```
+- Chrome
 nvm
 neovim
 OpenClaw
