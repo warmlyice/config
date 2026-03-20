@@ -14,6 +14,8 @@ https://www.google.com/chrome/dr/download/
 - f.lux
 ```
 https://justgetflux.com/
+```
+```
 39.9042° N, 116.4074° E
 ```
 
@@ -21,10 +23,13 @@ nodejs, git, neovim
 OpenClaw
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 ```
 iwr -useb https://openclaw.ai/install.ps1 | iex
+```
 openclaw doctor         # 检查配置问题
 openclaw status         # Gateway 网关状态
 openclaw dashboard      # 打开浏览器 UI
