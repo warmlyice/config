@@ -20,6 +20,10 @@ https://justgetflux.com/
 nodejs, git, neovim
 OpenClaw
 ```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+```
 iwr -useb https://openclaw.ai/install.ps1 | iex
 openclaw doctor         # 检查配置问题
 openclaw status         # Gateway 网关状态
@@ -52,7 +56,4 @@ scoop install tree-sitter
 环境变量
 XDG_CONFIG_HOME=D:\workspace\config\
 
-```
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-```
+
