@@ -40,6 +40,8 @@ openclaw dashboard      # 打开浏览器 UI
 ```
 
 
+https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/
+
 
 
 scoop
