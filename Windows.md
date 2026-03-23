@@ -1,3 +1,7 @@
+### 环境变量
+```
+XDG_CONFIG_HOME
+```
 taskschd.msc
 ### 基础
 - BootCamp
