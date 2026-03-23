@@ -2,6 +2,10 @@
 ```
 XDG_CONFIG_HOME
 ```
+C:\Users\sh\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+```
+. "D:\workspace\config\win.ps1"
+```
 taskschd.msc
 ### 基础
 - BootCamp
