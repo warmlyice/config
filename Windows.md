@@ -54,6 +54,8 @@ https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/
 
 scoop
 ```
+$env:SCOOP='d:\scoop\local'
+[Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
