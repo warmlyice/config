@@ -61,6 +61,9 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
 ```
+scoop bucket add extras
+scoop install extras/flux
+
 scoop bucket add nerd-fonts
 scoop install JetBrainsMono-NF
 https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/NerdFontsSymbolsOnly.zip
